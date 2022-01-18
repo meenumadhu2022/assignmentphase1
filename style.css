@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-size: cover;
+}
+
+
+
+header{
+    background-color: orange;
+    height:7rem;
+}
+header h2{
+    text-align:right;
+    margin-left: 15%;
+    color:green
+}
+
+header h4{
+    text-align:right;
+    margin-left: 23%;
+    color: green;
+
+}
+
+
+img{
+    
+    width:7rem;
+    margin-left:5%;
+    
+}
+
+.head-tag{
+    float:right;
+    margin-top:30px;
+    margin-right:55px;
+
+}
+
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    padding:8px;
+    margin-right: 8px;
+
+}
+
+.head-tag a:hover{
+    background-color:green;
+    color:orangered;
+    transition: 0.5s ease-in-out;
+}
+/*form*/
+
+.login{
+    float:right;
+    border: 2px solid black;
+    background-color:orange;
+    height:20rem;
+    margin-top: 5%;
+    margin-right:2%;
+    padding:30px;
+}
+
+.login h2{
+    text-align: center;
+
+}
+.login input{
+    height:1.5rem;
+}
+.login  #login-button{
+    width:100%;
+    height:1.8rem;
+    color:white;
+    background-color: green;
+    border:1px solid green;
+}
+/*p-box*/
+.container{
+  
+    margin-top:7%;
+    margin-left:1%;
+    margin-bottom: 2%;
+}
+.p-box{
+    border:2px solid white;
+    width:15rem;
+    float:left;
+    margin-left:10px;
+    height:21rem;
+    padding:5px;
+    background-color:orange;
+}
+
+.p-box h3{
+    text-align: center;
+}
+
+.p-box p{
+    line-height: 1.25rem;
+    text-align: justify;
+
+}
+.p-box a{
+    text-decoration: none;
+    color:blueviolet;
+    background-attachment:#fff;
+
+}
+.p-box img{
+    align-items: center;
+    width:14rem;
+    height: 10rem;
+    padding:1px;
+
+}
+
+footer{
+    background-color: green;
+    color: orangered;
+    height: 1.5rem;
+    margin-top: 33%;
+}
+footer h3{
+    text-align:center;
+    background-color: green;
+    margin-top:33%;
+
+}
